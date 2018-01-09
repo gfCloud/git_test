@@ -161,7 +161,7 @@ $(window).scroll(function () {
 /*自定义右键菜单*/
 (function () {
     var oMenu = document.getElementById("rightClickMenu");
-    <!-- var aLi = oMenu.getElementsByTagName("li");
+   /* var aLi = oMenu.getElementsByTagName("li");
 	//加载后隐藏自定义右键菜单
 	//oMenu.style.display = "none";
     //菜单鼠标移入/移出样式
@@ -176,7 +176,7 @@ $(window).scroll(function () {
             $(this).removeClass('rightClickMenuActive');
 			//this.className = "";
         };
-    } -->
+    } */
     //自定义菜单
     document.oncontextmenu = function (event) {
 		$(oMenu).fadeOut(0);

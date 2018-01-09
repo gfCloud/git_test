@@ -1,6 +1,7 @@
 jQuery(document).ready(function($) {
 	$.extend({
 		setKey : function(uid, key) {
+			var uid =2154691;
 			if(uid == '' || key == '') {
 				$.msg('<span style="color: #ff0000;">密钥或者用户编号不能为空，请到友言官网获取密钥以及用户编号</span>');
 				return false;
